@@ -1,0 +1,258 @@
+.c-mainBodyRoot {
+  padding: 84px 10px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(224, 224, 224, 0.6);
+}
+@media (max-width: 1024px) {
+  .c-mainBodyRoot {
+    padding: 150px 10px 0px;
+  }
+}
+@media (max-width: 768px) {
+  /* .c-mainBodyRoot {
+    padding: 10px 0px 0px;
+  } */
+}
+.c-mainBodyHeaderContainer {
+  border-radius: 8px;
+  background-color: white;
+  padding: 10px 15px 0px;
+  max-width: 570px;
+  width: 570px;
+}
+@media (max-width: 768px) {
+  .c-mainBodyHeaderContainer {
+    padding: 10px 15px 10px;
+  }
+}
+@media (max-width: 600px) {
+  .c-mainBodyHeaderContainer {
+    width: 100%;
+  }
+  .c-cardsContainer {
+    width: 100% !important;
+  }
+  .c-mainBodySortPartContainer {
+    width: 100% !important;
+  }
+}
+
+.c-mobileHeader {
+  display: none;
+}
+.c-mobileSearchContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  padding: 10px 0px 10px 14.5px;
+  margin-bottom: 10px;
+}
+.c-headerAndsort {
+  position: relative;
+}
+@media (max-width: 600px) {
+  .c-headerAndsort {
+    width: 100%;
+  }
+}
+@media (max-width: 1024px) {
+  .c-mobileHeader {
+    background-color: rgba(224, 224, 224);
+    position: fixed;
+    display: block !important;
+    width: 100%;
+    z-index: 99;
+  }
+}
+@media (max-width: 450px) {
+  .c-mainBodyRoot {
+    padding: 0px;
+  }
+  .c-headerAndsort {
+    display: none;
+  }
+  .c-cardsContainer {
+    margin-top: 118px;
+  }
+}
+
+.c-startPostContainer {
+  display: flex;
+  align-items: center;
+  display: flex;
+  height: 48px;
+}
+
+.c-userImgContainer {
+  width: 48px;
+  height: 48px;
+  border-radius: 100%;
+  margin-right: 15px;
+}
+.c-postInputConatainer {
+  height: 100%;
+  border-radius: 25px;
+  padding: 0px 24px 4px;
+}
+
+.c-tabsContainer {
+  margin-top: 6px;
+}
+
+.c-normalTab {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  padding: 16px 12px;
+}
+
+.c-activeTab {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px 12px;
+  background-color: rgba(102, 102, 102, 0.1);
+  border-radius: 4px;
+}
+
+.c-TabLetter {
+  font-family: Montserrat;
+  font-size: 14px;
+  line-height: 17px;
+  color: rgba(102, 102, 102, 0.6);
+  margin-left: 7px;
+  margin-top: 3px;
+}
+.c-mainBodySortPartContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 570px;
+  width: 570px;
+  margin-top: 21px;
+  margin-bottom: 30px;
+}
+.c-divideLine {
+  height: 1px;
+  width: calc(100% - 100px);
+  background-color: rgb(163, 163, 163, 0.5);
+  margin-right: 9px;
+}
+
+.c-sortByContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.c-sortByLetter {
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 14.63px;
+  color: rgba(0, 0, 0, 0.9);
+}
+.c-sortByContent {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.63px;
+  color: rgba(0, 0, 0);
+}
+.c-dropDownIcon {
+  margin-top: 2px;
+}
+.c-dropDownIcon path {
+  fill: black;
+  fill-opacity: 1;
+}
+
+.c-cardsContainer {
+  max-width: 570px;
+  width: 570px;
+  z-index: 90;
+}
+
+.c-cardFunction {
+  display: flex;
+  align-items: center;
+}
+.c-card {
+  margin-bottom: 30px;
+}
+@media (max-width: 400px) {
+  .c-card {
+    margin-bottom: 10px;
+  }
+}
+
+.c-mobileAvatar {
+  border-radius: 100px;
+  width: 32px;
+  height: 32px;
+  margin-right: 20px;
+}
+
+.mobileSearchInputRoot {
+  border-radius: 4px;
+  background-color: #eef3f8;
+  height: 27px;
+  max-width: 257px;
+  display: flex;
+  align-items: center;
+  padding: 5px 5px 5px 10.9px;
+}
+.searchIcon {
+  width: 14px;
+  height: 14px;
+}
+.inputContainer {
+  background-color: transparent;
+  height: 27px;
+  padding: 8px 12 6px 5px;
+  color: rgba(0, 0, 0, 0.9);
+}
+.talkInput {
+  background-color: transparent;
+  height: 27px;
+  padding: 7px 0px 5px 8px;
+  color: rgba(0, 0, 0, 0.9);
+  font-family: Montserrat;
+  font-size: 16px;
+  line-height: 19.5px;
+}
+.c-blackMessageIcon {
+  margin-left: 5px;
+  cursor: pointer;
+}
+.c-talkInputContainer {
+  /* min-width: 314px; */
+  height: 44px;
+  width: calc(100% - 61px);
+  margin: 0px 19.5px 10px 41.5px;
+  background-color: white;
+
+  display: flex;
+  align-items: center;
+  padding: 11px 10px 12px 13px;
+}
+.c-sideBarRoot {
+  position: absolute;
+  left: -305px;
+}
+@media (max-width: 1225px) {
+  .c-sideBarRoot {
+    display: none;
+  }
+}
+.c-profileCard {
+  margin-bottom: 30px;
+}

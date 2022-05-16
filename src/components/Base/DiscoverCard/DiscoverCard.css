@@ -1,0 +1,45 @@
+.c-root {
+  border-radius: 8px;
+  width: 270px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border: 1px solid #e0e0e0;
+  padding: 10px 15px;
+}
+.c-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 5px;
+  padding: 8px 0px;
+}
+.c-grayLetter {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14.63px;
+  color: rgba(102, 102, 102, 0.6);
+  text-align: left;
+}
+.c-blueLetter {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14.63px;
+  color: #0a66c2;
+  text-align: left;
+}
+.c-icon {
+  cursor: pointer;
+}
+.c-discoverMore {
+  border-top: 1px solid rgba(224, 224, 224, 0.6);
+  padding: 8px 0px 7px;
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: rgba(102, 102, 102, 0.6);
+  /* text-align: left; */
+}

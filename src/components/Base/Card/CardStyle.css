@@ -1,0 +1,134 @@
+.c-cardRoot {
+  border-radius: 8px;
+  background-color: white;
+}
+
+.c-cardHeaderContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+.c-companyContainer {
+  display: flex;
+  align-items: center;
+}
+.c-comMark {
+  width: 48px;
+  height: 48px;
+  margin-right: 10px;
+}
+
+.c-comCurrentInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.c-comName {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19.5px;
+  color: rgba(0, 0, 0, 0.9);
+  text-align: left;
+}
+
+.c-followLetter {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 19.5px;
+  color: rgba(102, 102, 102, 0.6);
+}
+
+.c-earthContainer {
+  display: flex;
+  align-items: center;
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 19.5px;
+  color: rgba(102, 102, 102, 0.6);
+}
+
+.c-dot {
+  margin: 0px 5px;
+  font-size: 2px;
+}
+
+.c-ellipsisIcon {
+  cursor: pointer;
+  margin-bottom: 25px;
+}
+.c-cardDescContainer {
+  padding: 15px 15px 0px 15px;
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19.5px;
+  color: rgba(0, 0, 0, 0.9);
+  text-align: left;
+}
+.c-cardLink {
+  cursor: pointer;
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19.5px;
+  color: #0a66c2;
+  text-align: left;
+}
+.c-cardLinkContainer {
+  padding: 0px 15px 15px 15px;
+  display: flex;
+  justify-self: flex-start;
+}
+
+.c-cardFooterContainer {
+  padding: 17px 16px;
+  display: flex;
+  align-items: center;
+}
+.c-cardFunction {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  margin-right: 17px;
+}
+.c-verticalEllipsisIcon {
+  display: none;
+}
+@media (max-width: 450px) {
+  .c-cardFooterContainer {
+    justify-content: space-around;
+  }
+  .c-cardFunction {
+    margin-right: 0px;
+  }
+  .sendNone {
+    display: none;
+  }
+  .c-ellipsisIcon {
+    display: none;
+  }
+  .c-verticalEllipsisIcon {
+    padding: 3px;
+    cursor: pointer;
+    display: block;
+  }
+  .c-cardHeaderContainer {
+    padding-bottom: 5px !important;
+  }
+  .c-cardDescContainer {
+    padding-top: 5px;
+  }
+}
+
+.c-cardFunctionIcon {
+  margin-right: 8px;
+}
+
+.c-cardFunctionLetter {
+}
